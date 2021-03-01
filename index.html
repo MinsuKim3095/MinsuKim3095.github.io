@@ -55,8 +55,7 @@
 						<!-- Work -->
 							<article id="work">
 								<h2 class="major">Work</h2>
-								<span class="video main">
-								<iframe width="750" height = "315" src="https://www.youtube.com/embed/5KEdQR_yqyU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></span>
+								<div class="video main"><iframe width="560" height="315" src="https://www.youtube.com/embed/5KEdQR_yqyU" frameborder="0" allowfullscreen></iframe></div>
 								<p><a href = "https://github.com/MinsuKim3095/pigeon_eradication">Github</a></p>
 								<p style ='font-size : 15px'>
 								1. Yolo_v4를 이용한 비둘기 Custom Image Training.
@@ -64,7 +63,7 @@
 								<br>	3. Darknet_video.py 수정
 								<br>	- Detection을 수행하는 for문에 bbox의 중심점 및 중심점의 X좌표 표시
 								<br>	- 웹캠 X좌표의 중앙점 (Width / 2) - bbox의 중심 X좌표를 통한 객체와의 거리 획득
-								<br>	4. 프레임 당 3-2)의 내용을 소켓통신으로 라즈베리파이로 전송
+								<br>	4. 실시간 Detection을 통해, 3의 값을 소켓통신으로 라즈베리파이로 전송
 								<br>	5. 객체를 화면 중앙에 위치시키기 위해 객체와의 거리에 따른 서보모터 조건문 작성.
 								<br>	- 서보모터의 떨림으로 인한 초점 흐려짐을 방지하기 위해 pigpiod 라이브러리 사용.
 								<br>	[RPi.GPIO = 밀리세컨드(ms)로 신호 전달, pigpiod = 마이크로세컨드(usec)로 신호 전달]

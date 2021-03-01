@@ -639,7 +639,7 @@ input, select, textarea {
 .video.main {
 	position : relative;
 	padding-bottom :56.25%;
-	height : 0;
+	height : 30;
 }
 .video iframe{
 	  position : absolute;
